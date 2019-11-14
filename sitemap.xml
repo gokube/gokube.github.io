@@ -23,12 +23,12 @@
   </url>
   
   <url>
-    <loc>https://gokube.github.io/tags/container/</loc>
+    <loc>https://gokube.github.io/categories/container/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gokube.github.io/categories/container/</loc>
+    <loc>https://gokube.github.io/tags/container/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
@@ -43,12 +43,12 @@
   </url>
   
   <url>
-    <loc>https://gokube.github.io/tags/docker/</loc>
+    <loc>https://gokube.github.io/categories/docker/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gokube.github.io/categories/docker/</loc>
+    <loc>https://gokube.github.io/tags/docker/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
@@ -59,6 +59,11 @@
   
   <url>
     <loc>https://gokube.github.io/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/tags/infra/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
@@ -74,11 +79,6 @@
   
   <url>
     <loc>https://gokube.github.io/categories/nettec/</loc>
-    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gokube.github.io/tags/nfra/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
