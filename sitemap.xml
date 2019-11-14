@@ -33,7 +33,12 @@
   </url>
   
   <url>
-    <loc>https://gokube.github.io/tags/dev/</loc>
+    <loc>https://gokube.github.io/tags/deploy/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/tags/develop/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
@@ -44,11 +49,6 @@
   
   <url>
     <loc>https://gokube.github.io/categories/docker/</loc>
-    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gokube.github.io/tags/docker/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   

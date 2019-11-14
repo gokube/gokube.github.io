@@ -48,11 +48,20 @@
     </item>
     
     <item>
-      <title>dev</title>
-      <link>https://gokube.github.io/tags/dev/</link>
+      <title>deploy</title>
+      <link>https://gokube.github.io/tags/deploy/</link>
       <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
       
-      <guid>https://gokube.github.io/tags/dev/</guid>
+      <guid>https://gokube.github.io/tags/deploy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>develop</title>
+      <link>https://gokube.github.io/tags/develop/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/develop/</guid>
       <description></description>
     </item>
     
@@ -62,15 +71,6 @@
       <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://gokube.github.io/tags/docker/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
-      
-      <guid>https://gokube.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
