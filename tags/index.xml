@@ -6,9 +6,100 @@
     <description>Recent content in Tags on Gokube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2019 00:39:03 +0800</lastBuildDate>
     
 	<atom:link href="https://gokube.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AI</title>
+      <link>https://gokube.github.io/tags/ai/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BigData</title>
+      <link>https://gokube.github.io/tags/bigdata/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/bigdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://gokube.github.io/tags/cloud/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>container</title>
+      <link>https://gokube.github.io/tags/container/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dev</title>
+      <link>https://gokube.github.io/tags/dev/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://gokube.github.io/tags/devops/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://gokube.github.io/tags/docker/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nfra</title>
+      <link>https://gokube.github.io/tags/nfra/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/nfra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docs</title>
+      <link>https://gokube.github.io/tags/docs/</link>
+      <pubDate>Thu, 14 Nov 2019 22:46:10 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://gokube.github.io/tags/hugo/</link>
+      <pubDate>Thu, 14 Nov 2019 22:46:10 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

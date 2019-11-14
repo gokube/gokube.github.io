@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dev on Gokube</title>
+    <link>https://gokube.github.io/tags/dev/</link>
+    <description>Recent content in dev on Gokube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2019 00:39:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://gokube.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Doocker核心知识</title>
+      <link>https://gokube.github.io/2019/11/15/doocker%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/2019/11/15/doocker%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86/</guid>
+      <description>docker 是一种容器 docker 基于LXC、cgroup、chroot设计开发的，是kernel的namespace的具体实现。</description>
+    </item>
+    
+  </channel>
+</rss>

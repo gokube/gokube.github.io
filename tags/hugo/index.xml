@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Gokube</title>
+    <link>https://gokube.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Gokube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Nov 2019 22:46:10 +0800</lastBuildDate>
+    
+	<atom:link href="https://gokube.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>William blog intr</title>
+      <link>https://gokube.github.io/2019/11/14/william-blog-intr/</link>
+      <pubDate>Thu, 14 Nov 2019 22:46:10 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/2019/11/14/william-blog-intr/</guid>
+      <description> welcome william yangshun hugo blog in github started
+本Blog的用途和目的 1、用于容器的文档Demo 2、用于k8s及kube功能的使用文档记录 3、用于容器云开发知识记录 4、便于备忘  本blog安装、部署和使用方式 参考：install page
+安装步骤： --&amp;gt; 本地hugo命令安装: brew install hugo --&amp;gt; 本地建立新site: hugo new site /path/to/site --&amp;gt; 本地新建md文档: hugo new post/william.md --&amp;gt; git安装themes：hugo-icarus-themes --&amp;gt; 修改 config.toml文件 --&amp;gt; 启动: hugo server --&amp;gt; 同步: 在github建立仓库，然后hugo 生成public目录；最后push到github  </description>
+    </item>
+    
+  </channel>
+</rss>

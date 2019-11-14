@@ -6,9 +6,100 @@
     <description>Recent content in Categories on Gokube</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2019 00:39:03 +0800</lastBuildDate>
     
 	<atom:link href="https://gokube.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>container</title>
+      <link>https://gokube.github.io/categories/container/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://gokube.github.io/categories/docker/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>https://gokube.github.io/categories/k8s/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>micrService</title>
+      <link>https://gokube.github.io/categories/micrservice/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/micrservice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NetTec</title>
+      <link>https://gokube.github.io/categories/nettec/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/nettec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podman</title>
+      <link>https://gokube.github.io/categories/podman/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/podman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rkt</title>
+      <link>https://gokube.github.io/categories/rkt/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/rkt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serviceMesh</title>
+      <link>https://gokube.github.io/categories/servicemesh/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/servicemesh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>storag</title>
+      <link>https://gokube.github.io/categories/storag/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/storag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>其他</title>
+      <link>https://gokube.github.io/categories/%E5%85%B6%E4%BB%96/</link>
+      <pubDate>Thu, 14 Nov 2019 22:46:10 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/%E5%85%B6%E4%BB%96/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
