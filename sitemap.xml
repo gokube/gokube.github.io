@@ -8,12 +8,32 @@
   </url>
   
   <url>
+    <loc>https://gokube.github.io/categories/appmesh/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gokube.github.io/tags/bigdata/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
   <url>
+    <loc>https://gokube.github.io/categories/calico/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/categories/cannel/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gokube.github.io/categories/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/categories/channel/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
@@ -48,7 +68,17 @@
   </url>
   
   <url>
-    <loc>https://gokube.github.io/2019/11/15/doocker%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86/</loc>
+    <loc>https://gokube.github.io/categories/docker-registry/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/categories/envoy/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/categories/gcr/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
@@ -58,12 +88,42 @@
   </url>
   
   <url>
+    <loc>https://gokube.github.io/categories/harbor/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/categories/helm/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/tags/ict/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gokube.github.io/tags/infra/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
   <url>
+    <loc>https://gokube.github.io/tags/iot/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/categories/istio/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gokube.github.io/categories/k8s/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/categories/kubeedge/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
@@ -88,6 +148,16 @@
   </url>
   
   <url>
+    <loc>https://gokube.github.io/categories/promethues/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/categories/quay/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gokube.github.io/categories/rkt/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
@@ -98,12 +168,22 @@
   </url>
   
   <url>
-    <loc>https://gokube.github.io/tags/storag/</loc>
+    <loc>https://gokube.github.io/tags/storage/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gokube.github.io/tags/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/categories/tiller/</loc>
+    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/2019/11/15/%E5%AE%B9%E5%99%A8%E4%BA%91%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   

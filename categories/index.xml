@@ -12,11 +12,101 @@
     
     
     <item>
+      <title>appmesh</title>
+      <link>https://gokube.github.io/categories/appmesh/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/appmesh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>calico</title>
+      <link>https://gokube.github.io/categories/calico/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/calico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cannel</title>
+      <link>https://gokube.github.io/categories/cannel/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/cannel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>channel</title>
+      <link>https://gokube.github.io/categories/channel/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/channel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>docker</title>
       <link>https://gokube.github.io/categories/docker/</link>
       <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
       
       <guid>https://gokube.github.io/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker-registry</title>
+      <link>https://gokube.github.io/categories/docker-registry/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/docker-registry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>envoy</title>
+      <link>https://gokube.github.io/categories/envoy/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/envoy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gcr</title>
+      <link>https://gokube.github.io/categories/gcr/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/gcr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>harbor</title>
+      <link>https://gokube.github.io/categories/harbor/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/harbor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>helm</title>
+      <link>https://gokube.github.io/categories/helm/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/helm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>istio</title>
+      <link>https://gokube.github.io/categories/istio/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/istio/</guid>
       <description></description>
     </item>
     
@@ -30,6 +120,15 @@
     </item>
     
     <item>
+      <title>kubeedge</title>
+      <link>https://gokube.github.io/categories/kubeedge/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/kubeedge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>podman</title>
       <link>https://gokube.github.io/categories/podman/</link>
       <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
@@ -39,11 +138,38 @@
     </item>
     
     <item>
+      <title>promethues</title>
+      <link>https://gokube.github.io/categories/promethues/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/promethues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quay</title>
+      <link>https://gokube.github.io/categories/quay/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/quay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>rkt</title>
       <link>https://gokube.github.io/categories/rkt/</link>
       <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
       
       <guid>https://gokube.github.io/categories/rkt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tiller</title>
+      <link>https://gokube.github.io/categories/tiller/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/categories/tiller/</guid>
       <description></description>
     </item>
     

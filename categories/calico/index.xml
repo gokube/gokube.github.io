@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>calico on Gokube</title>
+    <link>https://gokube.github.io/categories/calico/</link>
+    <description>Recent content in calico on Gokube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2019 00:39:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://gokube.github.io/categories/calico/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>容器云核心知识</title>
+      <link>https://gokube.github.io/2019/11/15/%E5%AE%B9%E5%99%A8%E4%BA%91%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/2019/11/15/%E5%AE%B9%E5%99%A8%E4%BA%91%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86/</guid>
+      <description>docker 是一种容器 docker 基于LXC、cgroup、chroot设计开发的，是kernel的namespace的具体实现。
+容器技术包括的技术栈 1. OS层支撑的容器、OCI、CNI、Olayerfilesystem、Olayernet、pic-runtime-manage 2. 容器的调度、编排、伸缩、监控 3. 集群本身的调度、伸缩、监控、混合集群 4. 容器底层通讯和网络管理 5. 分布式存储的挂载，一致性检查，安全保证 6. 应用app的自动化CICD及rollback 7. 应用接口和相互访问的规范和约束</description>
+    </item>
+    
+  </channel>
+</rss>
