@@ -23,11 +23,6 @@
   </url>
   
   <url>
-    <loc>https://gokube.github.io/categories/container/</loc>
-    <lastmod>2019-11-15T00:39:03+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gokube.github.io/tags/container/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
@@ -73,12 +68,12 @@
   </url>
   
   <url>
-    <loc>https://gokube.github.io/categories/micrservice/</loc>
+    <loc>https://gokube.github.io/tags/micrservice/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gokube.github.io/categories/nettec/</loc>
+    <loc>https://gokube.github.io/tags/nettec/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
@@ -98,12 +93,12 @@
   </url>
   
   <url>
-    <loc>https://gokube.github.io/categories/servicemesh/</loc>
+    <loc>https://gokube.github.io/tags/servicemesh/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gokube.github.io/categories/storag/</loc>
+    <loc>https://gokube.github.io/tags/storag/</loc>
     <lastmod>2019-11-15T00:39:03+08:00</lastmod>
   </url>
   

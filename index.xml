@@ -26,7 +26,7 @@
       <pubDate>Thu, 14 Nov 2019 22:48:37 +0800</pubDate>
       
       <guid>https://gokube.github.io/about/</guid>
-      <description> about page </description>
+      <description> about page 自建标签、分类目录（持续更新） tag：文章标签(hugo、docs、infra、devops、dev、cloud、AI、BigData)；从业务或岗位角度看 topic：文章主题/文章系列 category：文章分类 (container、docker、、podman、rkt、k8s、micrServic、serviceMesh、NetTec、storage、golang、python、Os、helm、k8s-operate、imghub)；从技术行业具体分类 series = &amp;ldquo;series&amp;rdquo; </description>
     </item>
     
     <item>
