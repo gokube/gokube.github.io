@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <title>deploy &middot; Gokube</title>
+    <title>jq安装和使用 &middot; Gokube</title>
     <meta name="generator" content="Hugo 0.59.1" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,10 +10,7 @@
       <meta name="description" content="About kube* and include golang develop">
     
     
-      <link href="https://gokube.github.io/tags/deploy/index.xml" rel="alternate" type="application/rss+xml" title="Gokube" />
-      <link href="https://gokube.github.io/tags/deploy/index.xml" rel="feed" type="application/rss+xml" title="Gokube" />
-    
-    <link rel="canonical" href="https://gokube.github.io/tags/deploy/"/>
+    <link rel="canonical" href="https://gokube.github.io/2019/11/16/jq%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/"/>
     <link rel="icon" href="https://gokube.github.io/favicon.ico">
     <link rel="apple-touch-icon" href="https://gokube.github.io/apple-touch-icon.png"/>
     <link rel="stylesheet" href="https://gokube.github.io/css/style.css">
@@ -23,21 +20,41 @@
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="deploy" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://gokube.github.io/tags/deploy/" />
-
-<meta property="og:updated_time" content="2019-11-15T00:39:03+08:00" />
+    <meta property="og:title" content="jq安装和使用" />
+<meta property="og:description" content="1. 背景 REST与接口返回的数据类型基本是JSON, 在命令行获取到接口返回的数据，往往是一大堆数据，怎样在一大堆数据中只想获取到我想要的数据，就需要一个特定的工具：jq，格式化输出，方便校验。
+2. jq是什么 jq是轻量级和便捷的命令行JSON解析器。
+ jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.
+ 3. install  linux &amp;&amp; OS X
+git clone https://github.com/stedolan/jq.git cd jq autoreconf -i ./configure --disable-maintainer-mode make sudo make install  macos brew 安装" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gokube.github.io/2019/11/16/jq%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/" />
+<meta property="article:published_time" content="2019-11-16T22:48:37+08:00" />
+<meta property="article:modified_time" content="2019-11-16T22:48:37+08:00" />
 
     
-    <meta itemprop="name" content="deploy">
-<meta itemprop="description" content="">
+    <meta itemprop="name" content="jq安装和使用">
+<meta itemprop="description" content="1. 背景 REST与接口返回的数据类型基本是JSON, 在命令行获取到接口返回的数据，往往是一大堆数据，怎样在一大堆数据中只想获取到我想要的数据，就需要一个特定的工具：jq，格式化输出，方便校验。
+2. jq是什么 jq是轻量级和便捷的命令行JSON解析器。
+ jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.
+ 3. install  linux &amp;&amp; OS X
+git clone https://github.com/stedolan/jq.git cd jq autoreconf -i ./configure --disable-maintainer-mode make sudo make install  macos brew 安装">
 
+
+<meta itemprop="datePublished" content="2019-11-16T22:48:37&#43;08:00" />
+<meta itemprop="dateModified" content="2019-11-16T22:48:37&#43;08:00" />
+<meta itemprop="wordCount" content="440">
+
+
+
+<meta itemprop="keywords" content="commandline," />
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="deploy"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="jq安装和使用"/>
+<meta name="twitter:description" content="1. 背景 REST与接口返回的数据类型基本是JSON, 在命令行获取到接口返回的数据，往往是一大堆数据，怎样在一大堆数据中只想获取到我想要的数据，就需要一个特定的工具：jq，格式化输出，方便校验。
+2. jq是什么 jq是轻量级和便捷的命令行JSON解析器。
+ jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.
+ 3. install  linux &amp;&amp; OS X
+git clone https://github.com/stedolan/jq.git cd jq autoreconf -i ./configure --disable-maintainer-mode make sudo make install  macos brew 安装"/>
 <meta name="twitter:site" content="@QQ2095686947"/>
 
     
@@ -235,45 +252,439 @@
 
     <section id="main">
     
-    
-    
-    
-    <section class="archives-wrap">
-        <div class="archive-category-wrap">
-            <span class="archive-category">deploy</span>
-        </div>
-        <div class="archives">
-            
-            
-                <article class="archive-article archive-type-post">
-    <div class="archive-article-inner">
-        <div class="archive-article-thumbnail">
-            
-            <a href="https://gokube.github.io/2019/11/15/%E5%AE%B9%E5%99%A8%E4%BA%91%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86/" class="thumbnail">
-                <span class="thumbnail-image thumbnail-none"></span>
-            </a>
-            
-        </div>
-        <header class="archive-article-header">
-            <h1 itemprop="name">
-            <a class="archive-article-title" href="https://gokube.github.io/2019/11/15/%E5%AE%B9%E5%99%A8%E4%BA%91%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86/">容器云核心知识</a>
-            </h1>
-            <div class="archive-article-date">
-                <i class="fa fa-calendar"></i>
-                <time datetime="2019-11-15 00:39:03 &#43;0800 CST" itemprop="datePublished">2019-11-15</time>
-            </div>
-        </header>
-    </div>
-</article>
- 
-            
-        </div>
-    </section>
-    <nav id="page-nav">
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
 
+        <header class="article-header">
+    <a href="https://gokube.github.io/2019/11/16/jq%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/">
+    <h1 class="article-title" itemprop="name">
+        jq安装和使用
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2019-11-16 22:48:37 &#43;0800 CST" itemprop="datePublished">2019-11-16</time>
+            &middot;
+            440
+            
+            &middot;
+            3
+            
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://gokube.github.io/categories/jq">jq</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://gokube.github.io/tags/commandline">commandline</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            
+
+<h3 id="1-背景">1. 背景</h3>
+
+<p>REST与接口返回的数据类型基本是JSON, 在命令行获取到接口返回的数据，往往是一大堆数据，怎样在一大堆数据中只想获取到我想要的数据，就需要一个特定的工具：<code>jq</code>，格式化输出，方便校验。</p>
+
+<h3 id="2-jq是什么">2. jq是什么</h3>
+
+<p><code>jq是轻量级和便捷的命令行JSON解析器。</code></p>
+
+<blockquote>
+<p>jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.</p>
+</blockquote>
+
+<h3 id="3-install">3. install</h3>
+
+<blockquote>
+<p>linux &amp;&amp; OS X</p>
+
+<pre><code>git clone https://github.com/stedolan/jq.git
+cd jq
+autoreconf -i
+./configure --disable-maintainer-mode
+make
+sudo make install
+</code></pre>
+
+<p>macos brew 安装<br />
+<code>brew install jq</code></p>
+</blockquote>
+
+<h3 id="4-常用方法">4.常用方法</h3>
+
+<p><code>格式化：.</code></p>
+
+<pre><code>hugangdeMacBook-Pro:~ root# curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq '.'
+{
+  &quot;error&quot;: 0,
+  &quot;status&quot;: &quot;success&quot;,
+  &quot;date&quot;: &quot;2016-02-02&quot;,
+  &quot;results&quot;: [
+    {
+      &quot;currentCity&quot;: &quot;shanghai&quot;,
+      &quot;pm25&quot;: &quot;170&quot;,
+      &quot;index&quot;: [
+        {
+          &quot;title&quot;: &quot;穿衣&quot;,
+          &quot;zs&quot;: &quot;较冷&quot;,
+          &quot;tipt&quot;: &quot;穿衣指数&quot;,
+          &quot;des&quot;: &quot;建议着厚外套加毛衣等服装。年老体弱者宜着大衣、呢外套加羊毛衫。&quot;
+        },
+        {
+          &quot;title&quot;: &quot;洗车&quot;,
+          &quot;zs&quot;: &quot;较适宜&quot;,
+          &quot;tipt&quot;: &quot;洗车指数&quot;,
+          &quot;des&quot;: &quot;较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。&quot;
+        },
+        {
+          &quot;title&quot;: &quot;旅游&quot;,
+          &quot;zs&quot;: &quot;适宜&quot;,
+          &quot;tipt&quot;: &quot;旅游指数&quot;,
+          &quot;des&quot;: &quot;天气较好，气温稍低，会感觉稍微有点凉，不过也是个好天气哦。适宜旅游，可不要错过机会呦！&quot;
+        },
+        {
+          &quot;title&quot;: &quot;感冒&quot;,
+          &quot;zs&quot;: &quot;易发&quot;,
+          &quot;tipt&quot;: &quot;感冒指数&quot;,
+          &quot;des&quot;: &quot;昼夜温差很大，易发生感冒，请注意适当增减衣服，加强自我防护避免感冒。&quot;
+        },
+        {
+          &quot;title&quot;: &quot;运动&quot;,
+          &quot;zs&quot;: &quot;较适宜&quot;,
+          &quot;tipt&quot;: &quot;运动指数&quot;,
+          &quot;des&quot;: &quot;天气较好，无雨水困扰，较适宜进行各种运动，但因气温较低，在户外运动请注意增减衣物。&quot;
+        },
+        {
+          &quot;title&quot;: &quot;紫外线强度&quot;,
+          &quot;zs&quot;: &quot;弱&quot;,
+          &quot;tipt&quot;: &quot;紫外线强度指数&quot;,
+          &quot;des&quot;: &quot;紫外线强度较弱，建议出门前涂擦SPF在12-15之间、PA+的防晒护肤品。&quot;
+        }
+      ],
+      &quot;weather_data&quot;: [
+        {
+          &quot;date&quot;: &quot;周二 02月02日 (实时：3℃)&quot;,
+          &quot;dayPictureUrl&quot;: &quot;http://api.map.baidu.com/images/weather/day/qing.png&quot;,
+          &quot;nightPictureUrl&quot;: &quot;http://api.map.baidu.com/images/weather/night/qing.png&quot;,
+          &quot;weather&quot;: &quot;晴&quot;,
+          &quot;wind&quot;: &quot;微风&quot;,
+          &quot;temperature&quot;: &quot;5 ~ 0℃&quot;
+        },
+        {
+          &quot;date&quot;: &quot;周三&quot;,
+          &quot;dayPictureUrl&quot;: &quot;http://api.map.baidu.com/images/weather/day/qing.png&quot;,
+          &quot;nightPictureUrl&quot;: &quot;http://api.map.baidu.com/images/weather/night/duoyun.png&quot;,
+          &quot;weather&quot;: &quot;晴转多云&quot;,
+          &quot;wind&quot;: &quot;微风&quot;,
+          &quot;temperature&quot;: &quot;7 ~ 2℃&quot;
+        },
+        {
+          &quot;date&quot;: &quot;周四&quot;,
+          &quot;dayPictureUrl&quot;: &quot;http://api.map.baidu.com/images/weather/day/xiaoyu.png&quot;,
+          &quot;nightPictureUrl&quot;: &quot;http://api.map.baidu.com/images/weather/night/yin.png&quot;,
+          &quot;weather&quot;: &quot;小雨转阴&quot;,
+          &quot;wind&quot;: &quot;东风微风&quot;,
+          &quot;temperature&quot;: &quot;6 ~ 2℃&quot;
+        },
+        {
+          &quot;date&quot;: &quot;周五&quot;,
+          &quot;dayPictureUrl&quot;: &quot;http://api.map.baidu.com/images/weather/day/duoyun.png&quot;,
+          &quot;nightPictureUrl&quot;: &quot;http://api.map.baidu.com/images/weather/night/qing.png&quot;,
+          &quot;weather&quot;: &quot;多云转晴&quot;,
+          &quot;wind&quot;: &quot;北风微风&quot;,
+          &quot;temperature&quot;: &quot;9 ~ 1℃&quot;
+        }
+      ]
+    }
+  ]
+}
+</code></pre>
+
+<blockquote>
+<p>获取特定字段：.特定字段</p>
+
+<pre><code>curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq '.status'
+&quot;success&quot;
+</code></pre>
+
+<p>数组操作<br />
+<code>数组中第一个元素</code></p>
+
+<pre><code>hugangdeMacBook-Pro:~ hugang$ curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq '.results[0].currentCity'
+&quot;shanghai&quot;
+</code></pre>
+
+<blockquote>
+<p>重新组合<br />
+<code>.results[]:返回results数组所有数据； |:the output of one filter into the input of another，类似管道符；{biaoti: .title, miaoshu: .des} 将input中.title,.des做为biaoti，miaoshu的value。</code></p>
+
+<pre><code>hugangdeMacBook-Pro:~ hugang$ curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq '.results[] | .index[] | {biaoti: .title, miaoshu: .des}'
+{
+  &quot;biaoti&quot;: &quot;穿衣&quot;,
+  &quot;miaoshu&quot;: &quot;建议着厚外套加毛衣等服装。年老体弱者宜着大衣、呢外套加羊毛衫。&quot;
+}
+{
+  &quot;biaoti&quot;: &quot;洗车&quot;,
+  &quot;miaoshu&quot;: &quot;较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持一天。&quot;
+}
+{
+  &quot;biaoti&quot;: &quot;旅游&quot;,
+  &quot;miaoshu&quot;: &quot;天气较好，气温稍低，会感觉稍微有点凉，不过也是个好天气哦。适宜旅游，可不要错过机会呦！&quot;
+}
+{
+  &quot;biaoti&quot;: &quot;感冒&quot;,
+  &quot;miaoshu&quot;: &quot;昼夜温差很大，易发生感冒，请注意适当增减衣服，加强自我防护避免感冒。&quot;
+}
+{
+  &quot;biaoti&quot;: &quot;运动&quot;,
+  &quot;miaoshu&quot;: &quot;天气较好，无雨水困扰，较适宜进行各种运动，但因气温较低，在户外运动请注意增减衣物。&quot;
+}
+{
+  &quot;biaoti&quot;: &quot;紫外线强度&quot;,
+  &quot;miaoshu&quot;: &quot;紫外线强度较弱，建议出门前涂擦SPF在12-15之间、PA+的防晒护肤品。&quot;
+}
+</code></pre>
+
+<p>获取多个结果<br />
+<code>,分隔多个结果</code></p>
+
+<pre><code>curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq '.error, .date'
+0
+&quot;2016-02-02&quot;
+</code></pre>
+
+<blockquote>
+<p>长度<br />
+<code>length 根据input判断长度，字符串，数组，对象的长度</code></p>
+</blockquote>
+</blockquote>
+
+<p>JSON对象:</p>
+
+<pre><code>hugangdeMacBook-Pro:~ hugang$ curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq '.| length'
+4
+</code></pre>
+
+<blockquote>
+<blockquote>
+<p>JSON数组</p>
+
+<pre><code>curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq '.results[] | .index | length'
+6
+</code></pre>
+
+<p>字符串</p>
+
+<pre><code>curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq '.status | length'
+7
+</code></pre>
+
+<p>keys</p>
+
+<pre><code>curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq '. | keys' 
+[
+  &quot;date&quot;,
+  &quot;error&quot;,
+  &quot;results&quot;,
+  &quot;status&quot;
+]
+</code></pre>
+
+<p>-S 根据key排序输出</p>
+
+<pre><code>curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq -S 'keys'
+[
+  &quot;date&quot;,
+  &quot;error&quot;,
+  &quot;results&quot;,
+  &quot;status&quot;
+]
+</code></pre>
+
+<p>map(foo)<br />
+<code>invoke filter foo for each input</code></p>
+
+<pre><code>echo '[1,5,3,0,7]' | jq 'map(.+11)'
+[
+  12,
+  16,
+  14,
+  11,
+  18
+]
+</code></pre>
+
+<p>select(foo)<br />
+<code>返回满足条件的数据</code></p>
+
+<pre><code>echo '[1,5,3,0,7]' | jq 'map(select(.&lt;2))'
+[
+  1,
+  0
+]
+</code></pre>
+
+<p>if-then-else-end<br />
+<code>条件判断</code></p>
+
+<pre><code>curl 'http://api.map.baidu.com/telematics/v3/weather?location=shanghai&amp;output=json&amp;ak=W69oaDTCfuGwzNwmtVvgWfGH' -s | jq 'if .error==0 then &quot;ok&quot; elif .==1 then &quot;false&quot; else &quot;null&quot; end'
+&quot;ok&quot;
+</code></pre>
+</blockquote>
+</blockquote>
+</blockquote>
+
+        </div>
+        <footer class="article-footer">
+    <a data-url="https://gokube.github.io/2019/11/16/jq%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/" data-id="d7457f5541f6e02eae9eb001aa123ac8" class="article-share-link">
+        <i class="fa fa-share"></i>
+        
+    </a>
+    
+    <a href="https://gokube.github.io/2019/11/16/jq%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/#disqus_thread" class="article-comment-link">
+        
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+
+    
+<nav id="article-nav">
+    
+    <a href="https://gokube.github.io/2019/11/15/%E5%AE%B9%E5%99%A8%E4%BA%91%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          
+      </strong>
+      <div class="article-nav-title">容器云核心知识</div>
+    </a>
+    
+
+    
 </nav>
 
+
+</article>
+
+
+<section id="comments">
+    <div id="disqus_thread">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
     
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</section>
+
 
     </section>
 

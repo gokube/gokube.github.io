@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jq on Gokube</title>
+    <link>https://gokube.github.io/categories/jq/</link>
+    <description>Recent content in jq on Gokube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Nov 2019 22:48:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://gokube.github.io/categories/jq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jq安装和使用</title>
+      <link>https://gokube.github.io/2019/11/16/jq%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Sat, 16 Nov 2019 22:48:37 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/2019/11/16/jq%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</guid>
+      <description>1. 背景 REST与接口返回的数据类型基本是JSON, 在命令行获取到接口返回的数据，往往是一大堆数据，怎样在一大堆数据中只想获取到我想要的数据，就需要一个特定的工具：jq，格式化输出，方便校验。
+2. jq是什么 jq是轻量级和便捷的命令行JSON解析器。
+ jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.
+ 3. install  linux &amp;amp;&amp;amp; OS X
+git clone https://github.com/stedolan/jq.git cd jq autoreconf -i ./configure --disable-maintainer-mode make sudo make install  macos brew 安装</description>
+    </item>
+    
+  </channel>
+</rss>
