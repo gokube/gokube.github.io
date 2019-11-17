@@ -5,11 +5,20 @@
     <link>https://gokube.github.io/tags/infra/</link>
     <description>Recent content in infra on Gokube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2019 00:39:03 +0800</lastBuildDate>
+    <language>zh</language>
+    <lastBuildDate>Sun, 17 Nov 2019 23:21:06 +0800</lastBuildDate>
     
 	<atom:link href="https://gokube.github.io/tags/infra/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker_cmd</title>
+      <link>https://gokube.github.io/2019/11/17/docker_cmd/</link>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/2019/11/17/docker_cmd/</guid>
+      <description> docker cmd welcome docker cmd  </description>
+    </item>
     
     <item>
       <title>容器云核心知识</title>

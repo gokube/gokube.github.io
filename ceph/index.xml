@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ceph on Gokube</title>
+    <link>https://gokube.github.io/ceph/</link>
+    <description>Recent content in Ceph on Gokube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Nov 2019 23:09:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://gokube.github.io/ceph/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Gokube</title>
+    <link>https://gokube.github.io/about/</link>
+    <description>Recent content in About on Gokube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Nov 2019 23:09:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://gokube.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://gokube.github.io/about/about/</link>
+      <pubDate>Thu, 14 Nov 2019 22:48:37 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/about/about/</guid>
+      <description> about page 自建标签、分类目录（持续更新） tag：文章标签(hugo、docs、infra、devops、dev、cloud、AI、BigData)；从业务或岗位角度看 topic：文章主题/文章系列 category：文章分类 (container、docker、、podman、rkt、k8s、micrServic、serviceMesh、NetTec、storage、golang、python、Os、helm、k8s-operate、imghub)；从技术行业具体分类 series = &amp;ldquo;series&amp;rdquo; </description>
+    </item>
+    
+  </channel>
+</rss>

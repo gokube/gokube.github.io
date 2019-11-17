@@ -5,25 +5,16 @@
     <link>https://gokube.github.io/tags/</link>
     <description>Recent content in Tags on Gokube</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 16 Nov 2019 22:48:37 +0800</lastBuildDate>
+    <language>zh</language>
+    <lastBuildDate>Sun, 17 Nov 2019 23:21:06 +0800</lastBuildDate>
     
 	<atom:link href="https://gokube.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>commandline</title>
-      <link>https://gokube.github.io/tags/commandline/</link>
-      <pubDate>Sat, 16 Nov 2019 22:48:37 +0800</pubDate>
-      
-      <guid>https://gokube.github.io/tags/commandline/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>AI</title>
       <link>https://gokube.github.io/tags/ai/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/ai/</guid>
       <description></description>
@@ -32,7 +23,7 @@
     <item>
       <title>BigData</title>
       <link>https://gokube.github.io/tags/bigdata/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/bigdata/</guid>
       <description></description>
@@ -41,7 +32,7 @@
     <item>
       <title>cloud</title>
       <link>https://gokube.github.io/tags/cloud/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/cloud/</guid>
       <description></description>
@@ -50,7 +41,7 @@
     <item>
       <title>container</title>
       <link>https://gokube.github.io/tags/container/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/container/</guid>
       <description></description>
@@ -59,7 +50,7 @@
     <item>
       <title>deploy</title>
       <link>https://gokube.github.io/tags/deploy/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/deploy/</guid>
       <description></description>
@@ -68,7 +59,7 @@
     <item>
       <title>develop</title>
       <link>https://gokube.github.io/tags/develop/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/develop/</guid>
       <description></description>
@@ -77,7 +68,7 @@
     <item>
       <title>devops</title>
       <link>https://gokube.github.io/tags/devops/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/devops/</guid>
       <description></description>
@@ -86,7 +77,7 @@
     <item>
       <title>ict</title>
       <link>https://gokube.github.io/tags/ict/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/ict/</guid>
       <description></description>
@@ -95,7 +86,7 @@
     <item>
       <title>infra</title>
       <link>https://gokube.github.io/tags/infra/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/infra/</guid>
       <description></description>
@@ -104,7 +95,7 @@
     <item>
       <title>iot</title>
       <link>https://gokube.github.io/tags/iot/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/iot/</guid>
       <description></description>
@@ -113,7 +104,7 @@
     <item>
       <title>micrService</title>
       <link>https://gokube.github.io/tags/micrservice/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/micrservice/</guid>
       <description></description>
@@ -122,7 +113,7 @@
     <item>
       <title>NetTec</title>
       <link>https://gokube.github.io/tags/nettec/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/nettec/</guid>
       <description></description>
@@ -131,7 +122,7 @@
     <item>
       <title>serviceMesh</title>
       <link>https://gokube.github.io/tags/servicemesh/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/servicemesh/</guid>
       <description></description>
@@ -140,9 +131,18 @@
     <item>
       <title>storage</title>
       <link>https://gokube.github.io/tags/storage/</link>
-      <pubDate>Fri, 15 Nov 2019 00:39:03 +0800</pubDate>
+      <pubDate>Sun, 17 Nov 2019 23:21:06 +0800</pubDate>
       
       <guid>https://gokube.github.io/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>commandline</title>
+      <link>https://gokube.github.io/tags/commandline/</link>
+      <pubDate>Sat, 16 Nov 2019 22:48:37 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/tags/commandline/</guid>
       <description></description>
     </item>
     

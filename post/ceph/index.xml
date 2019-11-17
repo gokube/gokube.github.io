@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post/ceph_index on Gokube</title>
+    <link>https://gokube.github.io/post/ceph/</link>
+    <description>Recent content in post/ceph_index on Gokube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 17 Nov 2019 23:09:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://gokube.github.io/post/ceph/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ceph00</title>
+      <link>https://gokube.github.io/2019/11/17/ceph00/</link>
+      <pubDate>Sun, 17 Nov 2019 22:57:47 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/2019/11/17/ceph00/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
