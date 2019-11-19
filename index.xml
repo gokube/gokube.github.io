@@ -30,6 +30,25 @@
     </item>
     
     <item>
+      <title>Ceph01</title>
+      <link>https://gokube.github.io/2019/11/17/ceph01/</link>
+      <pubDate>Sun, 17 Nov 2019 22:57:47 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/2019/11/17/ceph01/</guid>
+      <description> 分布式存储：元数据+数据（块） 元数据：NameNode 数据（块）：DateNode  ceph是对象存储系统，其每个数据对象包含元数据和数据流,是个SDS（soft defined storage） ceph特点 1、ceph把每一个数据流切分成若干个固定大小的对象数据，并以其作为原子单元完成数据存取 2、对象数据的底层存储服务由多个主机（host）组成的存储集群，该集群也被称之为RADOS（Reliable Automatic Distributed Object Store）存储集群，即可靠、自动化、分布式对象存储系统 3、librados是RADOS存储及去的API，他支持C、C++、Java、Python等编程语言；为方便用户多种场景使用，扩展的接口由： RADOSGW（跨互联网的rest对象存储）、RBD（块设备）、CEPHS（POSIX文件存储） 4、目前ceph底层到主机层的存储引擎：FileStore（基于主机的文件系统）、BlueStore（基于主机的存储设备） 5、ceph含有两个组件：mon组件（监控ceph集群底层主机存储状态）、mgr组件（L版后新增），使用帕克索斯协议 6、client --&amp;gt; DataObject --&amp;gt; pool存储池（PG）--&amp;gt; RADOS(OSD:master/slave) 鸠山码池 --&amp;gt; host主机群  CRUSH算法 ceph的关键知识： Admin Host OSD object:ID+MetaData+ Moni manage FileStore(levelDB+XFS) --&amp;gt; BlueStore(RocksDB+BlueFS)  </description>
+    </item>
+    
+    <item>
+      <title>Ceph02</title>
+      <link>https://gokube.github.io/2019/11/17/ceph02/</link>
+      <pubDate>Sun, 17 Nov 2019 22:57:47 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/2019/11/17/ceph02/</guid>
+      <description> ceph 部署 ceph部署工具种类： ceph-deply ceph-ansible //redhat拥有 目前最全面 ceph-chef puppet-ceph,...  ceph拓扑网络结构 ceph内部有两种数据流量
+环境准备 系统盘和数据盘分开 时钟同步 主机域名解析：（host或DNS） 关闭iptables、firewalld 关闭selinux 主机准备：一台admin-host、三台monitor机器、三台数据机器 网络环境：每个主机两块网卡：一块做private-cluster，用于集群数据传输，一块作为public-cluster，用于客户端通讯 准备yum仓库,使用13版（即mimic版本）  </description>
+    </item>
+    
+    <item>
       <title>jq安装和使用</title>
       <link>https://gokube.github.io/2019/11/16/jq%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Sat, 16 Nov 2019 22:48:37 +0800</pubDate>
