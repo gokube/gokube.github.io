@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post/k8s_index on Gokube</title>
+    <link>https://gokube.github.io/post/k8s/</link>
+    <description>Recent content in post/k8s_index on Gokube</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 17 Nov 2019 23:09:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://gokube.github.io/post/k8s/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>k8s01</title>
+      <link>https://gokube.github.io/2019/11/17/k8s01/</link>
+      <pubDate>Sun, 17 Nov 2019 22:57:47 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/2019/11/17/k8s01/</guid>
+      <description> 大纲 。 基础概念 。 集群部署和陈述式命令管理 。 资源类型及配置清单 。 Pod资源 。 Service资源 。 存储卷 。 ConfigMap与Secret资源 。 stateful资源 。 认证、授权及控制准入 。 网络模型及网络策略 。 Pod资源调度 。 CRD、自定义资源、自定义控制器及自定义API server 。 资源指标与HPA控制器 。 Helm管理器 。 高可用k8s及部署  </description>
+    </item>
+    
+  </channel>
+</rss>

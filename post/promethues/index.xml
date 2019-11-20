@@ -19,7 +19,14 @@
       <guid>https://gokube.github.io/2019/11/17/promethues01/</guid>
       <description> intr 指标监控软件 golang开发
  学习地址 https://www.ibm.com/developerworks/cn/cloud/library/cl-lo-prometheus-getting-started-and-practice/index.html
- 架构图   </description>
+ 架构图  Prometheus 生态圈中包含了多个组件，其中许多组件是可选的：
+Prometheus Server: 用于收集和存储时间序列数据。
+Client Library: 客户端库，为需要监控的服务生成相应的 metrics 并暴露给 Prometheus server。当 Prometheus server 来 pull 时，直接返回实时状态的 metrics。
+Push Gateway: 主要用于短期的 jobs。由于这类 jobs 存在时间较短，可能在 Prometheus 来 pull 之前就消失了。为此，这次 jobs 可以直接向 Prometheus server 端推送它们的 metrics。这种方式主要用于服务层面的 metrics，对于机器层面的 metrices，需要使用 node exporter。
+Exporters: 用于暴露已有的第三方服务的 metrics 给 Prometheus。
+Alertmanager: 从 Prometheus server 端接收到 alerts 后，会进行去除重复数据，分组，并路由到对收的接受方式，发出报警。常见的接收方式有：电子邮件，pagerduty，OpsGenie, webhook 等。
+一些其他的工具。
+  </description>
     </item>
     
   </channel>

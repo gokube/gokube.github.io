@@ -198,6 +198,21 @@
   </url>
   
   <url>
+    <loc>https://gokube.github.io/post/envoy/</loc>
+    <lastmod>2019-11-17T23:09:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/post/istio/</loc>
+    <lastmod>2019-11-17T23:09:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/post/k8s/</loc>
+    <lastmod>2019-11-17T23:09:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gokube.github.io/post/promethues/</loc>
     <lastmod>2019-11-17T23:09:01+08:00</lastmod>
   </url>
@@ -214,6 +229,11 @@
   
   <url>
     <loc>https://gokube.github.io/2019/11/17/ceph02/</loc>
+    <lastmod>2019-11-17T22:57:47+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gokube.github.io/2019/11/17/k8s01/</loc>
     <lastmod>2019-11-17T22:57:47+08:00</lastmod>
   </url>
   
