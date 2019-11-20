@@ -49,6 +49,17 @@
     </item>
     
     <item>
+      <title>promethues01</title>
+      <link>https://gokube.github.io/2019/11/17/promethues01/</link>
+      <pubDate>Sun, 17 Nov 2019 22:57:47 +0800</pubDate>
+      
+      <guid>https://gokube.github.io/2019/11/17/promethues01/</guid>
+      <description> intr 指标监控软件 golang开发
+ 学习地址 https://www.ibm.com/developerworks/cn/cloud/library/cl-lo-prometheus-getting-started-and-practice/index.html
+ 架构图   </description>
+    </item>
+    
+    <item>
       <title>jq安装和使用</title>
       <link>https://gokube.github.io/2019/11/16/jq%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Sat, 16 Nov 2019 22:48:37 +0800</pubDate>
